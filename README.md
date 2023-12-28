@@ -5,7 +5,7 @@
   
 ## Deployed App
 
-[netlify](https://unique-tulumba-dbf463.netlify.app/)
+[netlify](https://brand-wick-4odbugre1-shatrughan-kumars-projects.vercel.app/login)
 ##
 [backend](https://brand-wick-backend.onrender.com/)
 
@@ -55,10 +55,13 @@ GET - api/user/check-username/:username - No req.body - response ({message: Stri
 
 ## Snaps
 ### Home
-
-### Signup
+![1](https://github.com/shatrukumar47/brand-wick-assignment/assets/123942835/1503cbc9-7f80-453e-9654-acf3165d6c57)
 
 ### Login
+![2](https://github.com/shatrukumar47/brand-wick-assignment/assets/123942835/05f2981c-0c1a-4a11-b3e2-a335b42144ed)
+
+### Signup
+![3](https://github.com/shatrukumar47/brand-wick-assignment/assets/123942835/bc340de1-72e5-44f2-97cd-706fe6c4214a)
 
 
 
