@@ -11,7 +11,7 @@ const userSchema = mongoose.Schema({
     versionKey: false
 })
 
-const UserModel = mongoose.model("brandwick", userSchema);
+const UserModel = mongoose.model("users", userSchema);
 
 module.exports = {
     UserModel
