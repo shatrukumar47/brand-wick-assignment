@@ -80,7 +80,7 @@ const Signup = () => {
         setPassError(err);
       }
 
-      if(name === "phoneNumber"){
+      if(name === "phone"){
         // Allow only numeric input
         const numericInput = value.replace(/\D/g, '');
 
