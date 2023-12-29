@@ -5,7 +5,7 @@
   
 ## Deployed App
 
-[vercel](https://brand-wick-ge9wereio-shatrughan-kumars-projects.vercel.app/login)
+[vercel](https://brand-wick-cdxhatwyv-shatrughan-kumars-projects.vercel.app/login)
 ##
 [backend](https://brand-wick-backend.onrender.com/)
 
