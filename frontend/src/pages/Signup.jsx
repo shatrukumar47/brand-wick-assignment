@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {  Button, CircularProgress, FormControl, FormErrorMessage, FormLabel, HStack, Heading, Image, Input, InputGroup, InputRightElement, Stack, Text, Toast, VStack, useToast } from '@chakra-ui/react'
+import {  Button, CircularProgress, FormControl, FormErrorMessage, FormLabel, HStack, Heading, Image, Input, InputGroup, InputRightElement, Stack, Text, VStack, useToast } from '@chakra-ui/react'
 import signupPic from "../assets/images/signup.png"
 import {useNavigate} from "react-router-dom";
 import { FaExclamationCircle, FaFrown, FaGrinHearts } from "react-icons/fa";
@@ -97,7 +97,6 @@ const Signup = () => {
   }
 
   const handleLogin = ()=>{
-    console.log(user)
     if(!emailError && !passError && user?.name && user?.username && user?.phone && user?.password && user?.email && !phoneError){
       setLoading(true);
       axios.post(`${userAPI}/register`, user).then((res)=>{

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {  Button, FormControl, FormLabel, HStack, Heading, Image, Input, InputGroup, InputRightElement, Stack, Text, VStack, useToast } from '@chakra-ui/react'
 import { FaExclamationCircle } from "react-icons/fa";
 import loginPic from "../assets/images/login.png"
@@ -32,6 +32,10 @@ const Login = () => {
       const message = useSelector((store) => store.authReducer.message);
       const action = useSelector((store) => store.authReducer.action);
 
+      // useEffect(()=>{
+        
+      // }, [action])
+
      const handleChange = (e)=>{
       let {value, name} = e.target;
 
@@ -59,9 +63,11 @@ const Login = () => {
     }
   }
 
-  if(action){
-    navigate("/")
-  }
+  useEffect(()=>{
+    if(action){
+      navigate("/")
+    }
+  }, [action])
    
 
 
