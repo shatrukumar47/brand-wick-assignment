@@ -2,8 +2,8 @@ import axios from "axios";
 import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS, LOGOUT_SUCCESS } from "../actionTypes";
 import { getLSItem } from "../../utility/localStorage";
 
-// export const userAPI = "https://brand-wick-backend.onrender.com/user"
-export const userAPI = "http://localhost:8080/user"
+export const userAPI = "https://brand-wick-backend.onrender.com/user"
+// export const userAPI = "http://localhost:8080/user"
 
 //login
 export const loginAction = (user) => (dispatch) => {
