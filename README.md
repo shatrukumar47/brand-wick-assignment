@@ -14,6 +14,7 @@
 - Signup
 - Unique Username Availability Check
 - Login
+- Logout with Blacklisting Token
 - Form Validation
 
 ## Installation & Getting started
