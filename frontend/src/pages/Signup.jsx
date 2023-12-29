@@ -96,7 +96,7 @@ const Signup = () => {
       });
   }
 
-  const handleLogin = ()=>{
+  const handleLogout = ()=>{
     if(!emailError && !passError && user?.name && user?.username && user?.phone && user?.password && user?.email && !phoneError){
       setLoading(true);
       axios.post(`${userAPI}/register`, user).then((res)=>{
@@ -202,7 +202,7 @@ const Signup = () => {
           {phoneError &&  <HStack color={"red"} marginTop={"5px"}><FaExclamationCircle /><Text>{phoneError}</Text></HStack>} 
         </FormControl>
 
-        <Button isLoading={loading} isDisabled={loading} onClick={handleLogin} colorScheme='green' marginTop={"30px"}>Signup</Button>
+        <Button isLoading={loading} isDisabled={loading} onClick={handleLogout} colorScheme='green' marginTop={"30px"}>Signup</Button>
 
         <HStack marginTop={"10px"} justifyContent={"center"}>
           <Text >Already a user?</Text>
